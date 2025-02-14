@@ -1,15 +1,15 @@
-// Copyright (c) FIRST and other WPILib contributors.
-// Open Source Software; you can modify and/or share it under the terms of
-// the WPILib BSD license file in the root directory of this project.
+// This is the main initialisation class
+//
+// Do not modify this file unless you know what you are doing
 
 package frc.robot;
 
 import edu.wpi.first.wpilibj.RobotBase;
 
-public final class Main {
-  private Main() {}
+public final class lets_start_at_the_very_beginning_a_very_good_place_to_start{
 
   public static void main(String... args) {
-    RobotBase.startRobot(Galvanize::new);
+    RobotBase.startRobot(galvanize::new);
+
   }
 }
