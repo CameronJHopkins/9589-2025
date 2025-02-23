@@ -6,12 +6,12 @@ import edu.wpi.first.wpilibj.TimedRobot;
 import edu.wpi.first.wpilibj2.command.Command;
 import edu.wpi.first.wpilibj2.command.CommandScheduler;
 
-public class Galvanize extends TimedRobot {
+public class galvanize extends TimedRobot {
   private Command autonomous_command;
 
   private final RobotContainer robot_container;
 
-  public Robot() {
+  public galvanize() {
     robot_container = new RobotContainer();
   }
 

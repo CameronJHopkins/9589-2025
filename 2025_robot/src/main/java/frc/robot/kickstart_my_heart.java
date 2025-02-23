@@ -7,7 +7,7 @@ import edu.wpi.first.wpilibj2.command.Commands;
 
 public class kickstart_my_heart{
 
-  public RobotContainer() {
+  public kickstart_my_heart() {
     configureBindings();
   }
 
